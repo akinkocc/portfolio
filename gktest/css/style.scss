@@ -259,7 +259,7 @@ h1{
         position: relative;
         height: auto;
         margin: 0 auto;
-        width: 650px;
+        width: 820px;
         .boxes{
             height: 92px;
             margin-bottom: 30px;
@@ -324,13 +324,18 @@ h1{
             color: white;
             margin-top: 70px;
             position: relative;
+            text-align: center;
+            font-size: 14px;
             img{
-                position: absolute;
                 margin: 0 0 0 -40px;
+                float: left;
             }
             @media only screen and (max-width: $mb){
                 max-width: 500px;
-                margin-left: 50px;
+                margin-left: 120px;
+            }
+            h1{
+                font-size: 16px;
             }
         }
     }
