@@ -1,0 +1,20 @@
+$c1: #050505;
+$c2: #F1632B;
+$c3: #f5b818;
+$c4: #292929;
+$i: !important;
+$mb: 768px;
+
+*{
+    padding:0 $i;
+}
+.container-fluid{
+	padding: 0 $i;
+}
+.container{
+    padding: 0 $i;
+}
+
+.row{
+    padding: 0 $i;
+}

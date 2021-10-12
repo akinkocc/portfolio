@@ -1,0 +1,355 @@
+@import "function";
+
+
+body{
+	font-family: PT Sans; 
+	overflow-x: hidden;
+}
+
+.logo{
+    position: absolute;
+    z-index: 1 $i;
+    @media only screen and (max-width: $mb){
+        display: none;
+    }
+}
+h1{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.main{
+    position: relative;
+    .bcolor{
+        background-color: $c1;
+        .input{
+            margin: 0 auto;
+            max-width: 500px;
+            h1{
+                margin: 65px 0 0 0;
+                background-color: $c3;
+                padding: 14px $i;
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+        input{
+            margin: 10px auto $i;
+            max-width: 500px $i;
+            height: 64px $i;
+            border-radius: 0;
+            padding-left: 10px $i;
+            .d-flex{
+                max-width: 500px $i;
+                input{
+                    margin-right: 10px $i;
+                }
+            }
+        }
+        @media only screen and (max-width: $mb){
+            display: none;
+        }
+    }
+    img{
+        margin: 0 auto;
+        @media only screen and (max-width: $mb){
+            margin: 0 0 0 -280px $i;
+            width: 220% $i;
+        }
+    }
+    
+}
+
+.line  {
+    position: relative;
+    height: 71px;
+    p{
+        position: absolute;
+        color: white;
+        margin: 10px 0 0 35px;
+    }
+    
+    @media only screen and (max-width: $mb){
+        display: none;
+    }
+}
+
+.content{
+    font-family: PT Sans, Narrow;
+    margin: 50px auto;
+    h1{
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative $i;
+    }
+    h1:after {
+        content: '';
+        height: 2px;
+        width: 345px;
+        position: absolute;
+        margin: 50px 0px 0px -360px;
+        background-color:$c3;
+        text-align: center;
+    }
+
+    .text{
+        float: left;
+        margin: 50px auto;
+        p{
+            width: 85%;
+            font-size:18px;
+            span{
+                color: $c3;
+            }
+        }
+    }
+}
+
+.bg-img{
+    background-image: url('../img/7.png');
+    height: auto;
+    padding-bottom: 40px !important;
+}
+.carousel{
+    margin: 0 auto;
+    max-width: 1000px;
+    h1{
+        padding-bottom: 5px;
+        color: white;
+        text-align: center;
+        position: relative $i;
+        margin: 50px auto;
+        }
+        h1:after {
+            content: '';
+            height: 2px;
+            width: 345px;
+            position: absolute;
+            margin: 50px 0px 0px -493px;
+            background-color:$c3;
+            text-align: center;
+            @media only screen and (max-width: $mb){
+                margin: 50px 0px 0px -250px;
+            }
+        }
+    .boxes {
+        margin: 0 auto;
+        .box{
+            height: 177px;
+            width: 457px;
+            margin: 12px auto;    
+            position: relative;
+            background-image: url('../img/12.svg');
+            img{
+                margin: -16px 0 0 3px;
+            }
+        }
+        .box2{
+            height: 177px;
+            width: 457px;
+            margin: 12px auto;    
+            position: relative;
+            background-image: url('../img/12.svg');
+            img{
+                margin: 4px 0 0 -17px;
+            }
+        }
+        p{
+            color: white;
+            position: absolute;
+            font-size: 18px;
+            top: 0;
+            margin-left: 190px;
+            margin-top: 40px;
+            span{
+                color:$c3 $i;
+                font-size: 20px $i;
+            }
+            
+        }
+        
+    }
+}
+
+.broker{
+    height: auto;
+    margin: 0 auto;
+    h1{
+        padding-bottom: 5px;
+        text-align: center;
+        position: relative $i;
+        margin: 50px auto;
+        }
+        
+        h1:after {
+            content: '';
+            height: 2px;
+            width: 345px;
+            position: absolute;
+            margin: 50px 0px 0px -493px;
+            background-color:$c3;
+            text-align: center;
+            
+            @media only screen and (max-width: $mb){
+                margin: 50px 0px 0px -250px;
+            }
+        }
+        .box{
+            position: relative;
+            margin: 10px auto;
+            img{
+                padding: 14px $i;
+                border: 1px solid $c1;
+                margin: 7px;
+            }
+            .address{
+                position: relative;
+                background-image: url('../img/txt.svg');
+                height: 47px;
+                width: 140px;
+                margin: 0 45px 0 0;
+                p{
+                    position: absolute;
+                    font-size: 12px;
+                    color: white;
+                    text-align: center;
+                    margin-top: 10px;
+                    width: 100%;
+                }
+
+                @media only screen and (max-width: $mb){
+                    margin: 0px 45px 0px 200px;
+                }
+            }
+            
+            @media only screen and (max-width: $mb){
+                text-align: center;
+            }
+        }
+
+        #center{
+            margin: 0 0 0 800px;
+            width: 665px $i;
+            
+        }
+        h2:after{
+            content: '';
+            height: 2px;
+            width: 680px;
+            position: absolute;
+            margin: 50px 0px 0px -485px;
+            background-color:$c3;
+            text-align: center;
+
+            @media only screen and (max-width: $mb){
+                width: 345px;
+                margin: 50px 0px 0px -700px;
+            }
+        }
+        margin-bottom: 100px;
+        
+}
+
+
+.bcolor{
+    margin: 0 auto;
+    background-color: $c4;
+    height: auto;
+    padding-bottom: 30px $i;
+    .carousel-footer{
+        position: relative;
+        height: auto;
+        margin: 0 auto;
+        width: 650px;
+        .boxes{
+            height: 92px;
+            margin-bottom: 30px;
+        }
+        .box{
+            margin: 50px auto;
+            position: relative;
+            border: 1px solid white;
+            max-width: 200px;
+            padding: 5px $i;
+            img{
+                border: 1px solid white;
+                border-radius: 5px;
+                padding: 5px 10px 5px 10px $i;
+                height: 80px;
+            }
+            span{
+                color:white;
+                font-size: 18px;
+                position: absolute;
+                margin: 10px 0 0 10px;
+                font-family: PT Sans, Narrow;
+            }
+        }
+        input{
+            background-color: $c3 $i;
+            color: white;
+            padding: 5px $i;
+            width: 220px;
+            margin: 60px auto;
+            font-size: 25px;
+            border: 1px solid $c3;
+            height: 2.5em;
+            border-radius: 4px;
+            background-clip: content-box;
+            line-height: 1.5;
+            }
+
+        .f-logo{
+            text-align: center;
+        }
+        .f-logo::after{
+            content: '';
+            height: 1px;
+            width: 1000px;
+            position: absolute;
+            margin: 60px 0px 0px -560px;
+            background-color:white;
+            text-align: center;
+        }
+        .f-logo::before{
+            content: '';
+            height: 1px;
+            width: 1000px;
+            position: absolute;
+            margin: -25px 0px 0px -410px;
+            background-color:white;
+            text-align: center;
+        }
+
+        .info{
+            color: white;
+            margin-top: 70px;
+            position: relative;
+            img{
+                position: absolute;
+                margin: 0 0 0 -40px;
+            }
+            @media only screen and (max-width: $mb){
+                max-width: 500px;
+                margin-left: 50px;
+            }
+        }
+    }
+}
+
+.copyright{
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    color: #797979;
+    width: 800px $i;
+    font-size: 12px;
+    img{
+    position: absolute;
+    margin: 0 0 0 -70px;
+    }
+    
+    @media only screen and (max-width: $mb){
+        max-width: 500px;
+        margin-left: 120px;
+    }
+}
